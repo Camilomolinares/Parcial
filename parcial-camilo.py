@@ -39,9 +39,9 @@ def pedir_datos_empleado():
     return Empleado(persona.nombre, persona.apellido, persona.direccion,
                     persona.telefono, persona.edad, persona.email,
                     salario, jefe_inmediato, experiencia,
-                    persona.nombre)  # Puedes cambiar esto si necesitas un cargo específico
+                    persona.nombre)
 
-# Ejecución del programa
+
 empleado = pedir_datos_empleado()
 print(f"Cargo asignado: {empleado.asignar_cargo()}")
 

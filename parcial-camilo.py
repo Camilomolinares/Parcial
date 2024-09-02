@@ -20,6 +20,8 @@ class Empleado(Persona):
             return "Senior"
         elif 900000 <= self.salario <= 1200000 and self.anos_experiencia <= 2 and 18 <= self.edad <= 22:
             return "Junior"
+        else:
+            return "cargo no asignado"
      
 
 def pedir_datos_persona():
